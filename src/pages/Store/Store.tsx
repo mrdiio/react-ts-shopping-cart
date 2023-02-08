@@ -11,7 +11,6 @@ export const Store = () => {
           <Col key={item.id}>{<StoreItem {...item} />}</Col>
         ))}
       </Row>
-      <p>test</p>
     </>
   );
 };
