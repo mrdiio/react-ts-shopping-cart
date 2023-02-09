@@ -19,7 +19,7 @@ export const Navbar = () => {
             About
           </Nav.Link>
         </Nav>
-        {/* {cartQuantity > 0 && (
+        {cartQuantity > 0 && (
           <Button
             style={{ width: '3rem', height: '3rem', position: 'relative' }}
             variant="outline-primary"
@@ -48,7 +48,7 @@ export const Navbar = () => {
               {cartQuantity}
             </div>
           </Button>
-        )} */}
+        )}
       </Container>
     </NavbarBs>
   );
